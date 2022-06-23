@@ -1,0 +1,109 @@
+.centro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.centro img {
+  width: 90vw;
+}
+
+.buscador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1%;
+  margin: auto;
+}
+
+input {
+  width: 50vw;
+  border-radius: 10px;
+  padding: 1%;
+  margin: auto;
+}
+
+.gallery {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5%;
+}
+
+.gallery div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 3px black;
+  width: 235px;
+  height: 400px;
+  margin: 1%;
+  background-image: url(../../assets/escudo.jpg);
+  background-size: cover;
+}
+
+.gallery div h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.gallery div img {
+  width: 80%;
+  height: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 11px 9px 6px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 10px 13px -7px #000000, 11px 9px 6px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+}
+
+body {
+  background-color: #740001;
+  background-image: url(../../assets/fondo2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
